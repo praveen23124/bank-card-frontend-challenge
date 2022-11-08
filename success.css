@@ -1,0 +1,20 @@
+h1{
+  color: green;
+}
+button{
+  width: 200px;
+  padding: 1rem;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.correct{
+  margin-top: 5rem;
+  font-size: 20px;
+}
+@media (min-width:375px) {
+  .correct{
+    margin-top: 0;
+    font-size: 20px;
+  }
+}

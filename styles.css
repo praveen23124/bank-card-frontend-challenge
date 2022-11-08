@@ -1,0 +1,175 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.cardholder{
+  height: 230px;
+  background-image: url("images/bg-main-mobile.png");
+  position: relative;
+  margin-bottom: 1rem;
+}
+.cardBack{
+  height: 65%;
+  width: 85%;
+  position: absolute;
+  left: 13%;
+  top: 13%;
+}
+.cardFront{
+  position: absolute;
+  height: 65%;
+  width: 85%;
+  left: 4%;
+  top: 52%;
+}
+.cardDetails{
+  text-align: center;
+  margin-bottom: 5rem;
+  width: 75%;
+  height: 80px;
+  position: absolute;
+  left: 8%;
+  top: 80%;
+  line-height: 0;
+  color: white;
+}
+.cardNumber{
+  letter-spacing: 2.5px;
+}
+.name{
+  float: left;
+}
+.expiryDate{
+  float: right;
+}
+.cardLogo{
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  width: 15%;
+}
+.cvv{
+  position: absolute;
+  color: white;
+  left: 80%;
+  top: 32%;
+}
+.userInformation{
+  padding: 2rem;
+  line-height: 0;
+}
+.inputName{
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: solid hsl(270, 3%, 87%) 1px;
+}
+.inputCardNumber{
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: solid hsl(270, 3%, 87%) 1px;
+}
+.userExp{
+  display: inline-block;
+}
+.userCvc{
+  display: inline-block;
+  margin-left: 1rem;
+}
+.inputExp{
+  width: 15%;
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: solid hsl(270, 3%, 87%) 1px;
+}
+.inputCvc{
+  width: 35%;
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: solid hsl(270, 3%, 87%) 1px;
+}
+.button{
+  width: 85%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background: hsl(278, 68%, 11%);
+  color: white;
+  border-radius: 7px;
+}
+.userInformation p{
+  font-size: 13px;
+}
+.toWarn{
+  color: red;
+}
+.toWarn3{
+  display: inline;
+}
+.toWarn4{
+ display: inline;
+ margin-left: 8rem;
+}
+
+.warning{
+  margin-top: 1rem;
+}
+
+@media (min-width: 375px) {
+   body{
+     display: flex;
+   }
+    .cardholder{
+      height: 100vh;
+      width: 30%;
+      background-image: url("images/bg-main-desktop.png");
+      position: relative;
+      margin-right: 5rem;
+    }
+    .cardBack{
+      height: 180px;
+      width: 330px;
+      position: absolute;
+      left: 50%;
+      top: 49%;
+    }
+    .cardFront{
+      position: absolute;
+      height: 180px;
+      width: 330px;
+      left: 28%;
+      top: 15%;
+    }
+    .cardDetails{
+      width: 75%;
+      left: 32%;
+      top: 31%;
+    }
+    .cvv{
+      left: 110%;
+      top: 58.5%;
+    }
+    .cardLogo{
+      position: absolute;
+      top: 18%;
+      left: 33%;
+      width: 15%;
+    }
+    .userInformation{
+      padding: 10rem;
+      line-height: 2;
+    }
+    .userCvc{
+      margin-left: 6rem;
+    }
+    .inputCvc{
+      width: 42%;
+    }
+    .warning{
+      margin-top: 0rem;
+    }
+    .toWarn4{
+     margin-left: 14rem;
+    }
+}
